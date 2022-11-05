@@ -1,0 +1,10 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+width: 300px;
+border: 15px solid green;
+padding: 30px;
+margin: auto;
+}
+.tengah{
+    text-align: center;
+}

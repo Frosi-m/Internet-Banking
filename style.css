@@ -13,7 +13,7 @@ body{
     border-radius: 0 0 100px 100px ;
     text-align: center;
     background: #0092CA;
-    position: relative;
+    position: fixed;
     top: -22px;
 }
 
@@ -40,6 +40,7 @@ body{
     color: white;
     text-align: justify;
     text-indent: 5%;
+    height: 100vh;
 }
 
 .login{
@@ -53,7 +54,7 @@ body{
 
 }
 
-.footer{
+.footer {
     background: #0092CA;
     text-align: center;
     margin: 27% 0 0 0;

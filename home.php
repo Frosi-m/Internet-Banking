@@ -26,26 +26,26 @@
     </ul>
     <?php
     if (@$_GET[link] == 'register') {
-        include 'navigation/register.php';
+        include 'navigasi/register.php';
     }
     else if(@$_GET[link] == 'daftar_akun'){
-        include 'navigation/daftar_akun.php';
+        include 'navigasi/daftar_akun.php';
     }
     else if(@$_GET[link] == 'perbarui_akun'){
-        include 'navigation/perbarui_akun.php';
+        include 'navigasi/perbarui_akun.php';
     }
     else if(@$_GET[link] == 'tambah_data'){
-        include 'navigation/tambah_data.php';
+        include 'navigasi/tambah_data.php';
     }
     else if(@$_GET[link] == 'lihat_transaksi'){
-        include 'navigation/lihat_transaksi.php';
+        include 'navigasi/lihat_transaksi.php';
     }
     else if(@$_GET[link] == 'melakukan_transaksi'){
-        include 'navigation/melakukan_transaksi.php';
+        include 'navigasi/melakukan_transaksi.php';
     }
 
     else if(@$_GET[link] == 'edit_profile'){
-        include 'navigation/edit_profile.php';
+        include 'navigasi/edit_profile.php';
     }
     ?>
 </body>

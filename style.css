@@ -32,7 +32,7 @@ body{
 }
 .nav li{
     display: inline-block;
-    padding: 0 2%;
+    padding: 0 1%;
 }
 .nav li, .link{
     /* display: flex;
@@ -60,18 +60,39 @@ body{
     text-indent: 10%;
     /* height: 100vh; */
     line-height: 22pt;
+    animation: a 2.4s ease-in-out;
 }
-
+@keyframes a {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 .login{
     display: block;
+    position: relative;
     background: #8b97a9;
     float: right;
     width: 25%;
     padding: 0 2% 2% 2%;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgb(39, 39, 39);
+    animation: b 2s ease;
 
 }
+@keyframes b {
+    from{
+        opacity: 0;
+        left : 50px;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+
 .label{
     position: relative;
     left: 15%;

@@ -59,7 +59,7 @@ body{
     text-align: justify;
     text-indent: 10%;
     /* height: 100vh; */
-    line-height: 18pt;
+    line-height: 22pt;
 }
 
 .login{
@@ -131,6 +131,7 @@ body{
 }
 .gambar_biodata{
     width: 50%;
+    border-radius: 50%;
     position: relative;
     margin-top: -20%;
     left: 25%;
@@ -143,6 +144,7 @@ body{
     background: #393E46;
     border-radius: 8px;
     text-align: center;
+    color: whitesmoke;
     box-shadow: 5px 5px 6px #000000;
 }
 .isi{

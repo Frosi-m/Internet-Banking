@@ -35,17 +35,17 @@
         include 'navigation/perbarui_akun.php';
     }
     else if(@$_GET[link] == 'tambah_data'){
-        include 'tambah_data.php';
+        include 'navigation/tambah_data.php';
     }
     else if(@$_GET[link] == 'lihat_transaksi'){
-        include 'lihat_transaksi.php';
+        include 'navigation/lihat_transaksi.php';
     }
     else if(@$_GET[link] == 'melakukan_transaksi'){
-        include 'melakukan_transaksi.php';
+        include 'navigation/melakukan_transaksi.php';
     }
 
     else if(@$_GET[link] == 'edit_profile'){
-        include 'edit_profile.php';
+        include 'navigation/edit_profile.php';
     }
     ?>
 </body>

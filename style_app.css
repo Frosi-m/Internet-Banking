@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.bungkus{
+    display: grid;
+    grid-template-areas: "navigasi kepala"
+                            "navigasi isi"
+                            "navigasi kaki";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 0.5fr 4fr 1fr;
+}
+.kepala{
+    grid-area: kepala;
+    background: maroon;
+
+}
+.navigasi{
+    width: 100%;
+    height: 100%;
+    background: salmon fixed;
+    grid-area: navigasi;
+}
+.isi_navigasi{
+    position: fixed;
+}
+.isi{
+    grid-area: isi;
+    height: 100vh;
+}
+.kaki{
+    grid-area: kaki;
+    background: rosybrown;
+}

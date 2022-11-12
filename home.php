@@ -10,7 +10,13 @@
 </head>
 <body>
     <form action="" method="POST" class="bungkus">
-        <div class="kepala">ini kepala</div>
+
+        <!-- bagian buat header -->
+        <div class="kepala">
+            ini kepala
+        </div>
+
+        <!-- bagian buat navigasi -->
         <div class="navigasi">
             <div class="isi_navigasi">
             <h1>admin</h1>
@@ -32,6 +38,7 @@
             </div>
                 
         </div>
+        <!-- Bagian buat isi dari konten -->
         <div class="isi">
             ini isi
         <?php
@@ -59,6 +66,7 @@
             }
             ?> 
         </div>
+        <!-- Bagian buat footer -->
         <div class="kaki">
             Ini kaki
         </div>

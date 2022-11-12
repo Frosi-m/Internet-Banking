@@ -21,19 +21,19 @@
             <div class="isi_navigasi">
             <h1>admin</h1>
             <ul>
-                <li><a href="home.php">home</a></li>
-                <li><a href="home.php?link=register">register</a></li>
-                <li><a href="home.php?link=daftar_akun">daftar</a></li>
-                <li><a href="home.php?link=tambah_data">tambah_data</a></li>
-                <li><a href="home.php?link=perbarui_akun">perbarui akun</a></li>
+                <li><a href="home.php" class="link_navigasi">home</a></li>
+                <li><a href="home.php?link=register" class="link_navigasi">register</a></li>
+                <li><a href="home.php?link=daftar_akun" class="link_navigasi">daftar</a></li>
+                <li><a href="home.php?link=tambah_data" class="link_navigasi">tambah_data</a></li>
+                <li><a href="home.php?link=perbarui_akun" class="link_navigasi">perbarui akun</a></li>
             </ul>
 
             <h1>customer</h1>
             <ul>
-                <li><a href="home.php">home</a></li>
-                <li><a href="home.php?link=lihat_transaksi">lihat transaksi</a></li>
-                <li><a href="home.php?link=melakukan_transaksi">transaksi</a></li>
-                <li><a href="home.php?link=edit_profile">edit profile</a></li>
+                <li><a href="home.php" class="link_navigasi">home</a></li>
+                <li><a href="home.php?link=lihat_transaksi" class="link_navigasi">lihat transaksi</a></li>
+                <li><a href="home.php?link=melakukan_transaksi" class="link_navigasi">transaksi</a></li>
+                <li><a href="home.php?link=edit_profile" class="link_navigasi">edit profile</a></li>
             </ul>
             </div>
                 
